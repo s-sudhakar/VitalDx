@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom-Color | Vital Editor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+    <header class="p-2 border-bottom text-bg-dark">
+        <div class="container-fluid">
+          <div class="d-flex flex-wrap align-items-center justify-content-between">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-decoration-none me-3 pri-logo" title="Vital Editor">
+                <span class="text-secondary fs-5">Vital<strong class="text-white ms-1">Editor</strong></span>
+            </a>
+
+            <!-- <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 main-nav">
+              <li><a href="#" class="nav-link px-2 nav-active">Overview</a></li>
+              <li><a href="#" class="nav-link px-2 ">Inventory</a></li>
+              <li><a href="#" class="nav-link px-2 ">Customers</a></li>
+              <li><a href="#" class="nav-link px-2 ">Products</a></li>
+            </ul>
+    
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+              <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
+            </form>
+
+            <div class="text-end me-3">
+                <button type="button" class="btn btn-outline-light me-2">Login</button>
+            </div> -->
+
+            <div class="d-flex align-items-center">
+
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-decoration-none sec-logo" title="Report Editor">
+                    <span class="text-secondary fs-5">Report<strong class="text-white ms-1">Editor</strong></span>
+                </a>
+        
+                <!-- <div class="dropdown text-end ms-3">
+                    <a href="#" class="d-block link-white text-white text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+                        <strong>Admin</strong>
+                    </a>
+                    <ul class="dropdown-menu text-small shadow">
+                        <li><a class="dropdown-item" href="#"><i class="bi bi-folder-plus me-3"></i>New Project</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="bi bi-gear me-3"></i>Settings</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="bi bi-person me-3"></i>Profile</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#"><i class="bi bi-power me-3"></i>Sign out</a></li>
+                    </ul>
+                </div> -->
+
+            </div>
+
+          </div>
+        </div>
+    </header>
+
+    <div class="content-area d-flex">
+      <div class="d-flex flex-column flex-shrink-0 bg-light sidebar shadow">
+        <div class="d-flex flex-column w-100 border-bottom p-3">      
+          <strong class="fs-7 w-100">Mr. Anderson Brittany</strong>
+          <span class="w-100 text-muted">Administrator</span>
+        </div>
+        <ul class="nav nav-pills flex-column mb-auto">
+          <li class="nav-item">
+            <a href="#" class="nav-link active" aria-current="page">
+              Admin Configurations
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              Configure For Lab
+            </a>
+          </li>
+        </ul>
+        <div class="dropdown p-3 border-top">
+          <a href="#" class="d-flex align-items-center text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-gear-fill me-2 fs-6"></i>
+            <strong class="text-primary">Settings</strong>
+          </a>
+          <ul class="dropdown-menu text-small shadow">
+            <li><a class="dropdown-item" href="#"><i class="bi bi-folder-plus me-3"></i>New Project</a></li>
+            <li><a class="dropdown-item" href="#"><i class="bi bi-gear me-3"></i>Settings</a></li>
+            <li><a class="dropdown-item" href="#"><i class="bi bi-person me-3"></i>Profile</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#"><i class="bi bi-power me-3"></i>Logout</a></li>
+        </ul>
+        </div>
+      </div>
+
+      <div class="main-content w-100 p-3">
+
+        <ul class="nav nav-tabs nav-fill">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="master-theme.html">Master Theme</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="master-color.html">Master Color</a>
+          </li>
+          <li class="nav-item">            
+            <a class="nav-link" href="master-font.html">Master Font</a>
+          </li>
+          <li class="nav-item">
+            <span class="border-right-orange"></span>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="custom-theme.html">Custom Templates</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="custom-color.html">Custom Color</a>
+          </li>
+        </ul>
+
+        <ul class="w-100 mt-4 d-flex flex-wrap list-unstyled theme-list">
+
+          <li class="mb-3 text-center mx-4 active">
+            <div class="card m-0">
+              <div class="card-body p-2">
+                <a href="#">
+                  <img src="assets/images/color-tile.png" class="img-fluid color-tile border" alt="color-tile">
+                </a>
+              </div>
+            </div>
+            <strong class="my-2 d-inline-block color-title">CARET</strong>
+          </li>
+
+          <li class="mb-3 text-center mx-4">
+            <div class="card m-0">
+              <div class="card-body p-2">
+                <a href="#">
+                  <img src="assets/images/color-tile.png" class="img-fluid color-tile border" alt="color-tile">
+                </a>
+              </div>
+            </div>
+            <strong class="my-2 d-inline-block color-title">KOBE-CSTM</strong>
+          </li>
+
+          <li class="mb-3 text-center mx-4">
+            <div class="card m-0">
+              <div class="card-body p-2">
+                <a href="#">
+                  <img src="assets/images/color-tile.png" class="img-fluid color-tile border" alt="color-tile">
+                </a>
+              </div>
+            </div>
+            <strong class="my-2 d-inline-block color-title">CORNFLOWER-CSTM</strong>
+          </li>
+
+          <li class="mb-3 text-center mx-4">
+            <div class="card m-0">
+              <div class="card-body p-2">
+                <a href="#">
+                  <img src="assets/images/color-tile.png" class="img-fluid color-tile border" alt="color-tile">
+                </a>
+              </div>
+            </div>
+            <strong class="my-2 d-inline-block color-title">SUNFLOWER-CSTM</strong>
+          </li>
+
+          <li class="mb-3 text-center mx-4">
+            <div class="card m-0">
+              <div class="card-body p-2">
+                <a href="#">
+                  <img src="assets/images/color-tile.png" class="img-fluid color-tile border" alt="color-tile">
+                </a>
+              </div>
+            </div>
+            <strong class="my-2 d-inline-block color-title">BLISS-CSTM</strong>
+          </li>          
+
+          <li class="mb-3 text-center mx-4">
+            <div class="card m-0">
+              <div class="card-body p-2">
+                <a href="#">
+                  <img src="assets/images/color-tile.png" class="img-fluid color-tile border" alt="color-tile">
+                </a>
+              </div>
+            </div>
+            <strong class="my-2 d-inline-block color-title">MIDNIGHT-CSTM</strong>
+          </li>
+
+          <li class="mb-3 text-center mx-4">
+            <div class="card m-0">
+              <div class="card-body p-2">
+                <a href="#">
+                  <img src="assets/images/color-tile.png" class="img-fluid color-tile border" alt="color-tile">
+                </a>
+              </div>
+            </div>
+            <strong class="my-2 d-inline-block color-title">DARKKNIGHT-CSTM</strong>
+          </li>
+
+        </ul>
+
+
+        <footer class="footer bg-light w-100 px-3 py-2 border">
+            <span class="text-muted"><strong>Note:</strong> Changes would be reflected to all the organizations.</span>
+        </footer>
+
+      </div>
+      
+      <div class="d-flex flex-column justify-content-start right-sidebar flex-shrink-0 bg-light shadow p-2">
+
+        <div class="form-check border-bottom pb-2 d-flex align-items-center justify-content-center">
+          <input class="form-check-input p-2" type="checkbox" value="" id="flexCheckDefault">
+        </div>
+
+        <a href="#" title="Upload" class="d-inline-block mt-2 border-bottom pb-2">
+          <i class="bi bi-upload fs-6 p-1"></i> 
+        </a>
+
+        <a href="#" title="Delete" class="d-inline-block mt-2 border-bottom pb-2">
+          <i class="bi bi-trash3-fill fs-6 p-1"></i> 
+        </a> 
+
+        <a href="#" title="Remove" class="d-inline-block mt-2 border-bottom pb-2">
+          <i class="bi bi-dash-circle-fill fs-6 p-1"></i> 
+        </a> 
+
+      </div>
+
+    </div>
+
+
+
+      
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</body>
+</html>

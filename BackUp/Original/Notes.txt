@@ -1,0 +1,35 @@
+VitalDx
+-------
+24-Jan-2023:
+------------
+Lab Account Log In:
+------------------
+https://xd.adobe.com/view/10e33662-0abf-4efc-9c78-f58b73ada64d-45b0/
+
+
+Support/Admin Log In:
+--------------------
+https://xd.adobe.com/view/4f614a28-0ac4-4c6a-95f2-0751bdc93c11-1a32/screen/3408e744-1284-4d32-8350-3ca468aa64bc/
+
+
+GitHub:
+------
+git clone https://github.com/athrusolution/flex-report-angular.git
+
+Edit the code file -> Modify code changes and save in Editor
+
+git add .
+
+git commit -m "VitalDx Design and Navigation"
+
+git push 
+
+
+
+
+git branch -M main
+git remote add origin https://github.com/athrusolution/flex-report-angular.git
+git push -u origin main
+
+
+
